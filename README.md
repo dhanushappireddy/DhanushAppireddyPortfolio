@@ -1,7 +1,7 @@
 # Dhanush Appireddy Portfolio
 
 🌐 Live Demo
-👉 https://your-portfolio-link.com
+👉 https://dhanushappireddy.github.io/DhanushAppireddyPortfolio/
 
 ## Overview
 Modern iOS Developer portfolio built using HTML, CSS, and JavaScript.
