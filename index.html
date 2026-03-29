@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhanush Appireddy — iOS Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<canvas id="particle-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">DA<span>.</span></a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <span class="toggle-icon" id="toggle-icon">🌙</span>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"></button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <div class="hero-eyebrow">
+    <div class="pulse-dot"></div>
+    iOS Developer · TCS · Hyderabad
+  </div>
+
+  <h1 class="hero-name">
+    Dhanush<br>
+    <span class="grad" data-text="Appireddy">Appireddy</span>
+  </h1>
+
+  <p class="hero-role">
+    <span id="typewriter"></span><span class="type-cursor"></span>
+  </p>
+
+  <p class="hero-desc">
+    Building robust, offline-first iOS experiences at Tata Consultancy Services.
+    Passionate about clean architecture, data synchronization, and intelligent mobile apps.
+  </p>
+
+  <div class="hero-cta">
+    <a href="#experience" class="btn btn-primary">View Work ↓</a>
+    <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+  </div>
+
+  <div class="hero-social">
+    <a href="https://www.linkedin.com/in/dhanushappireddy/" class="social-link" target="_blank"><span>LinkedIn</span></a>
+    <a href="https://github.com/dhanushappireddy" class="social-link" target="_blank"><span>GitHub</span></a>
+    <a href="https://leetcode.com/u/Dhanush_A/" class="social-link" target="_blank"><span>LeetCode</span></a>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sdivider"></div>
+  <div class="eyebrow">What I Work With</div>
+  <h2 class="sec-title">Skills &<br>Technologies</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <span class="sk-icon">📱</span>
+      <h3>iOS Development</h3>
+      <div class="tags">
+        <span class="tag">Swift</span><span class="tag">UIKit</span><span class="tag">SwiftUI</span>
+        <span class="tag">Xcode</span><span class="tag">MVVMC</span><span class="tag">MVC</span>
+        <span class="tag">XCTest</span><span class="tag">REST APIs</span>
+        <span class="tag">Offline First</span><span class="tag">OIDC Auth</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <span class="sk-icon">🛠️</span>
+      <h3>Tools & Platforms</h3>
+      <div class="tags">
+        <span class="tag">Xcode</span><span class="tag">GitHub</span>
+        <span class="tag">Bitbucket</span><span class="tag">JIRA</span>
+        <span class="tag">Postman</span><span class="tag">Couchbase Capella</span>
+        <span class="tag">MongoDB Compass</span><span class="tag">VS Code</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <span class="sk-icon">🤖</span>
+      <h3>AI & Backend</h3>
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">Machine Learning</span>
+        <span class="tag">GenAI</span><span class="tag">FastAPI</span>
+        <span class="tag">Streamlit</span><span class="tag">Ollama</span>
+        <span class="tag">C</span><span class="tag">Data Sync</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="sdivider"></div>
+  <div class="eyebrow">Where I've Worked</div>
+  <h2 class="sec-title">Work<br>Experience</h2>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="exp-head">
+        <div class="exp-co">Tata Consultancy Services</div>
+        <div class="exp-period">June 2023 – Present</div>
+      </div>
+      <div class="exp-role">iOS Developer</div>
+      <ul class="exp-bullets">
+        <li>Designed and implemented <strong>intuitive iOS UIs</strong> using <strong>UIKit and Storyboards</strong>, delivering scalable, user-friendly mobile experiences.</li>
+        <li>Developed features utilizing <strong>MongoDB Realm for local data storage</strong>, improving app performance and offline access.</li>
+        <li>Wrote comprehensive <strong>unit test suites using XCTest</strong> to ensure code quality, regression safety, and maintainability.</li>
+        <li>Built a <strong>Proof of Concept</strong> using MVVMC and evaluated <strong>Couchbase Lite, Ditto, and PowerSync</strong> as alternatives to deprecated Realm services.</li>
+        <li>Actively contributing to the <strong>migration of a production iOS app from MongoDB Realm to Couchbase Lite</strong>, ensuring data consistency and offline-first capabilities.</li>
+        <li>Consolidated two independent iOS apps into a <strong>single unified codebase</strong> using <strong>Xcode schemes</strong> for environment-based builds.</li>
+        <li>Implemented <strong>OIDC-based authentication flows</strong> using REST APIs into a secure, production-ready solution.</li>
+        <li>Built the core <strong>data synchronization layer using Couchbase Lite Replicators</strong>, configuring push/pull replication with delta sync over a pre-bundled database.</li>
+        <li>Collaborated in <strong>Agile/Scrum</strong> teams contributing to architectural decisions and technical research.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="sdivider"></div>
+  <div class="eyebrow">Things I've Built</div>
+  <h2 class="sec-title">Featured<br>Projects</h2>
+  <div class="projects-grid">
+    <div class="proj-card">
+      <div class="proj-num">01</div>
+      <div class="proj-title">Personalized Investment Advice Chatbot</div>
+      <p class="proj-desc">An AI agent that provides personalized investment advice by analyzing user goals, risk tolerance, and real-time financial data to enhance decision-making.</p>
+      <div class="proj-stack">
+        <span class="tag">Python</span><span class="tag">Streamlit</span>
+        <span class="tag">FastAPI</span><span class="tag">Ollama</span><span class="tag">ML</span>
+      </div>
+      <a href="https://github.com/dhanushappireddy/invesmentAdviseChatBot" target="_blank" class="proj-link">View on GitHub →</a>
+    </div>
+    <div class="proj-card">
+      <div class="proj-num">02</div>
+      <div class="proj-title">Weather App — UIKit</div>
+      <p class="proj-desc">A dynamic weather app using UIKit for UI design and Swift for network calls to fetch real-time weather data with accurate forecasts and location updates.</p>
+      <div class="proj-stack">
+        <span class="tag">Swift</span><span class="tag">UIKit</span>
+        <span class="tag">REST APIs</span><span class="tag">Weather API</span>
+      </div>
+    </div>
+    <div class="proj-card">
+      <div class="proj-num">03</div>
+      <div class="proj-title">Gemini-Integrated SwiftUI App</div>
+      <p class="proj-desc">A SwiftUI-based application incorporating the Gemini API to deliver interactive conversational experiences with a clean, user-friendly interface.</p>
+      <div class="proj-stack">
+        <span class="tag">SwiftUI</span><span class="tag">Gemini API</span><span class="tag">REST APIs</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="sdivider"></div>
+  <div class="eyebrow">Background</div>
+  <h2 class="sec-title">Education &<br>Achievements</h2>
+
+  <div class="edu-card">
+    <div class="edu-school">Gayatri Vidya Parishad College of Engineering (A)</div>
+    <div class="edu-deg">Bachelor of Technology in Mechanical Engineering</div>
+    <div class="edu-meta">
+      <span class="edu-badge">Visakhapatnam, AP</span>
+      <span class="edu-badge">2019 – 2023</span>
+      <span class="edu-badge gpa">CGPA: 9.34</span>
+    </div>
+  </div>
+
+  <div style="margin-top:44px; margin-bottom:4px">
+    <div class="eyebrow" style="margin-bottom:0">Recognition</div>
+  </div>
+  <ul class="ach-list">
+    <li>
+      <span class="ach-icon">🏆</span>
+      <span><strong style="color:var(--text)">Innovation Superstar & On-the-Spot Awards</strong> at TCS for outstanding performance. Delivered an on-stage presentation at TCS IdeaVita on MongoDB alternatives.</span>
+    </li>
+    <li>
+      <span class="ach-icon">🤖</span>
+      <span>Participated in <strong style="color:var(--text)">GenAI Hackathons</strong> and AI Fridays organized at TCS.</span>
+    </li>
+    <li>
+      <span class="ach-icon">💻</span>
+      <span>Secured <strong style="color:var(--text)">Rank 3478 in CodeVita Season 10</strong> — a global competitive programming contest.</span>
+    </li>
+  </ul>
+
+  <div style="margin-top:48px">
+    <div class="eyebrow" style="margin-bottom:20px">Certifications</div>
+    <div class="cert-card">
+      <div class="cert-icon">☁️</div>
+      <div>
+        <div class="cert-name">Google Cloud Certified: Generative AI Leader</div>
+        <div class="cert-date">Issued Aug 2025 · Expires Aug 2028</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="sdivider"></div>
+  <div class="eyebrow" style="justify-content:center">Let's Connect</div>
+  <h2 class="sec-title" style="margin-bottom:12px">Get in<br>Touch</h2>
+  <p class="contact-sub">Open to interesting iOS roles and exciting projects. Feel free to reach out.</p>
+  <div class="contact-links">
+    <a href="mailto:appireddydhanush5@gmail.com" class="contact-item"><span>✉</span> appireddydhanush5@gmail.com</a>
+    <a href="tel:+918309077717" class="contact-item"><span>📞</span> +91 83090 77717</a>
+    <a href="https://www.linkedin.com/in/dhanushappireddy/" target="_blank" class="contact-item"><span>in</span> LinkedIn</a>
+    <a href="https://github.com/dhanushappireddy" target="_blank" class="contact-item"><span>⌥</span> GitHub</a>
+  </div>
+</section>
+
+<footer>
+  <span>© 2025 Dhanush Appireddy</span>
+</footer>
+
+<!-- JS -->
+<script src="js/main.js"></script>
+</body>
+</html>
